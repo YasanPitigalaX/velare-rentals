@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Velare Rentals - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="Resources/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="navdiv">
+            <h1>Booking Portal</h1><br>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="cars.html">Available Models</a>
+                <a href="booking.html">Booking</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+        <div class="logo-container">
+            <a href="home.html">
+                <img src="Resources/Logo png.png" alt="Velare Rentals Logo" class="logo">
+            </a>
+        </div>
+
+    </header>
+
+    <section class="booking-container">
+        <h2>Reserve Your Dream Ride</h2>
+        <form class="booking-form">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="car">Select Car:</label>
+                <select id="car">
+                    <option>Rolls Royce Phantom</option>
+                    <option>Mercedes Maybach S-Class</option>
+                    <option>BMW i7</option>
+                    <option>Bugatti Chiron</option>
+                    <option>Lamborghini Aventador SVJ</option>
+                    <option>Nissan GTR</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="pickup">Pick-up Date:</label>
+                <input type="date" id="pickup" required>
+            </div>
+
+            <div class="form-group">
+                <label for="return">Return Date:</label>
+                <input type="date" id="return" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" required>
+            </div>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <br><br><br><br><br><br>
+    <footer>
+        <div class="footer-info">
+            <strong>Velare Rentals</strong> &mdash; Unleash the Power of Luxury<br><br>
+            Location - Kattuwa,Negombo &nbsp;
+            <br>Contact us - +94-11-2-123456 &nbsp;  
+            <br>Mail us - contact@velarerentals.com
+        </div><br>
+        <div class="footer-social">
+            Follow us:
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div><br><br>
+        <div style="margin-top: 10px;">&copy; 2025 Velare Rentals. All rights reserved.</div>
+    </footer>
+
+
+</body>
+
+</html>
